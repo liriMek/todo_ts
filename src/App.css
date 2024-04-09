@@ -1,0 +1,48 @@
+
+#list {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.headerContainer {
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    color: purple;
+}
+
+#listItem {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.MuiInput {
+    max-width: 50%;
+    width: max-content;
+} 
+
+#checkbox{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+#trashIcon {
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+#addItemBtn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: pink;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#addItemBtn[disabled] {
+    cursor: default;
+}
